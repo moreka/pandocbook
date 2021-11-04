@@ -1,0 +1,32 @@
+\PassOptionsToPackage{explicit}{titlesec}
+\documentclass[nobib]{tufte-book}
+
+\input{preamble}
+
+\usepackage[
+backend=biber,
+style=alphabetic,
+citestyle=alphabetic
+]{biblatex}
+
+\addbibresource{introml.bib}
+
+\title{Introduction to \\ \noindent Machine Learning}
+\author{List of Authors}
+
+\include{shared-macros}
+
+\begin{document}
+\frontmatter
+\maketitle
+
+\tableofcontents
+
+\mainmatter
+\include{lec_00_01_math_recap}
+\include{lec_00_02_linear}
+
+\backmatter
+\printbibliography
+
+\end{document}

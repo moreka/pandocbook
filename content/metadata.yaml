@@ -1,0 +1,11 @@
+---
+booktitle: "Introduction to Machine Learning"
+author:    "Mohammad Reza Karimi"
+sourcedir: "content/"
+bibfile:   "../latex/introml.bib"
+title: ""
+filename: ""
+compiletime: ""
+description: "Lecture Notes for Introduction to Machine Learning"
+...
+

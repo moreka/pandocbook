@@ -1,4 +1,5 @@
 venv/
+latex/lec_*.tex
 
 ### LaTeX ###
 ## Core latex/pdflatex auxiliary files:
@@ -21,7 +22,7 @@ venv/
 *-converted-to.*
 # *.ps
 # *.eps
-# *.pdf
+latex/*.pdf
 
 ## Generated if empty string is given at "Please type another file name for output:"
 .pdf
